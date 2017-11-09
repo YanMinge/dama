@@ -27,7 +27,7 @@ include GNUMakefile
 ```
 5. mysy2 进入 `Codey\micropython-esp32\ports\esp32` 目录，输入 `make deploy -j4`
 
-#esp32的Backtrace调试方法
+# esp32的Backtrace调试方法
 
 - 进入工程编译后的 build目录，通过 objdump 生成 静态分析文件。
 xtensa-esp32-elf-objdump -S ota.elf > debug.txt // -S 而不是 -s
